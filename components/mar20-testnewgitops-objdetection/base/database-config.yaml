@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mar20-testnewgitops-objdetection-database-config
+data:
+  VECTORDB_HOST: "mar20-testnewgitops-objdetection-database"
+  VECTORDB_PORT: ""

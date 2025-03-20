@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app.kubernetes.io/instance: mar20-testnewgitops-objdetection-database
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: mar20-testnewgitops-objdetection-database
+  name: mar20-testnewgitops-objdetection-database
+spec:
+  ports:
+    - port: 
+      protocol: TCP
+      targetPort: 
+  selector:
+    app.kubernetes.io/instance: mar20-testnewgitops-objdetection-database
